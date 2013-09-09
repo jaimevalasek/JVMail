@@ -68,6 +68,8 @@ application/view/mailtemplates/teste.phhtml
  - Full PHP code to instantiate the class mail and send the mail.
  
 ```php
+use JVMail\Service\Mail;
+
 $mail = new Mail($this->getServiceLocator()->get('servicemanager'));
 $mail->setSubject('Teste de envio de email pelo modulo JVMail')
     ->setTo('recipientemail@domain.com')
