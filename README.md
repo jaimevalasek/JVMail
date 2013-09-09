@@ -4,7 +4,7 @@ Create By: Jaime Marcelo Valasek
 
 Use this module to send emails from your website.
 
-Futures video lessons poderam be developed and posted on the website or in http://www.zf2.com.br/tutoriais Youtube channel http://www.youtube.com/zf2tutoriais
+Futures video lessons can be developed and published on the website or Youtube channel http://www.zf2.com.br/tutoriais http://www.youtube.com/zf2tutoriais
 
 Installation
 -----
