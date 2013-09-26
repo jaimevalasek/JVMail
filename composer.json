@@ -1,0 +1,29 @@
+{
+    "name": "jaimevalasek/jv-mail",
+    "description": "A generic module send e-mail for ZF2.",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": [
+        "zf2", "send email", "jaimevalasek"
+    ],
+    "homepage": "https://github.com/jaimevalasek/JVMail",
+    "authors": [
+        {
+            "name": "Jaime Marcelo Valasek",
+            "email": "jaime.valasek@gmail.com",
+            "homepage": "http://valasek.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },    
+    "autoload": {
+        "psr-0": {
+            "JVMail": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
